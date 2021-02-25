@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Finance Logger</h2>
+    <div class="form">
+      <div id="display"></div>
+      <div class="input-data-form">
+        <div>
+          Type:
+          <select id="my_select">
+            <option value="invoice" id="invoice">invoice</option>
+            <option value="payment" id="payment">payment</option>
+          </select>
+        </div>
+        <div>
+          To/Form:
+          <input type="text" id="form" />
+        </div>
+        <div>
+          Details:
+          <input type="text" id="details" />
+        </div>
+        <div>
+          Amount:
+          <input type="text" id="amount" />
+        </div>
+        <div class="add">
+          <button type="submit" value="Add" id="add">Add</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
